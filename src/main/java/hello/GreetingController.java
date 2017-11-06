@@ -23,7 +23,7 @@ public class GreetingController {
                             String.format(template, name));
     }
     
-    @RequestMapping("/people")
+    @RequestMapping()
     public List<Personne> Personne(@RequestParam(value="name", defaultValue="World") String name) {
         return  personneRe.findAll();
     }

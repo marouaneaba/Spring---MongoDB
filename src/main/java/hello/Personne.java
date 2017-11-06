@@ -45,11 +45,11 @@ public Personne(){}
   }
 
 
-  public String GetName(){
+  public String getName(){
     return name;
   }
 
-  public String GetPrenom(){
+  public String getPrenom(){
     return Prenom;
   }
 
